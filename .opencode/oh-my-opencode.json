@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "sisyphus_agent": {
+    "disabled": false,
+    "planner_enabled": true,
+    "replace_plan": true
+  },
+  "agents": {
+    "prometheus": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "atlas": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "metis": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "momus": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "oracle": {
+      "model": "google/antigravity-claude-opus-4-6-thinking"
+    },
+    "librarian": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "explore": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "frontend-ui-ux-engineer": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "document-writer": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "multimodal-looker": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "hephaestus": {
+      "model": "zhipuai-coding-plan/glm-5",
+      "description": "Autonomous Deep Worker - Legitimate Craftsman",
+      "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "webfetch": "allow"
+      }
+    }
+  },
+  "categories": {
+    "unspecified-low": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "unspecified-high": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "writing": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "deep": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "ultrabrain": {
+      "model": "google/antigravity-claude-opus-4-6-thinking"
+    },
+    "artistry": {
+      "model": "zhipuai-coding-plan/glm-5"
+    },
+    "quick": {
+      "model": "google/antigravity-gemini-3-flash"
+    },
+    "visual-engineering": {
+      "model": "google/antigravity-gemini-3.1-pro-preview"
+    }
+  }
+}
