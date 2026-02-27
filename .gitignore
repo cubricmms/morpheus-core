@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Keep .git directory (required for repo)
+!.git/
+
+# Allow .opencode directory
+!.opencode/
+
+# Ignore .opencode contents by default
+.opencode/*
+
+# Whitelist: oh-my-opencode.json
+!.opencode/oh-my-opencode.json
+
+# Whitelist: skills directory and all contents
+!.opencode/skills/
+!.opencode/skills/**
+
+# Whitelist: README.md
+!README.md
+
+
+# Whitelist: .gitignore itself
+!.gitignore
